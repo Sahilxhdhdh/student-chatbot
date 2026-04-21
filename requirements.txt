@@ -3,4 +3,4 @@ plotly
 streamlit-autorefresh
 pandas
 numpy
-scikit-learn
+matplotlib

@@ -1,0 +1,363 @@
+{
+  "students": [
+    {
+      "username": "student1",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU001", "name": "Arjun Sharma", "course": "B.Tech CS", "year": 3, "semester": 6, "email": "arjun@gmail.com", "phone": "9000000001", "avatar": "🎓" },
+        "attendance": {
+          "overall": 82,
+          "subjects": {
+            "Data Structures": 85,
+            "Operating Systems": 78,
+            "Database Management": 88,
+            "Computer Networks": 80,
+            "Machine Learning": 83
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 86, "max": 100, "grade": "A" },
+            "Operating Systems": { "marks": 74, "max": 100, "grade": "B+" },
+            "Database Management": { "marks": 91, "max": 100, "grade": "A+" },
+            "Computer Networks": { "marks": 79, "max": 100, "grade": "B+" },
+            "Machine Learning": { "marks": 88, "max": 100, "grade": "A" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 80000,
+          "paid": [{ "description": "Sem 5 Fees", "amount": 50000 }],
+          "pending": [{ "description": "Sem 6 Fees", "amount": 30000 }]
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["📢 Exam tomorrow", "💰 Fees pending"]
+    },
+
+    {
+      "username": "student2",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU002", "name": "Rahul Mehta", "course": "B.Tech IT", "year": 2, "semester": 4, "email": "rahul@gmail.com", "phone": "9000000002", "avatar": "🎓" },
+        "attendance": {
+          "overall": 70,
+          "subjects": {
+            "Data Structures": 65,
+            "Operating Systems": 72,
+            "Database Management": 68,
+            "Computer Networks": 75,
+            "Machine Learning": 70
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 72, "max": 100, "grade": "B" },
+            "Operating Systems": { "marks": 69, "max": 100, "grade": "B" },
+            "Database Management": { "marks": 75, "max": 100, "grade": "B+" },
+            "Computer Networks": { "marks": 70, "max": 100, "grade": "B" },
+            "Machine Learning": { "marks": 73, "max": 100, "grade": "B+" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 75000,
+          "paid": [],
+          "pending": []
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["⚠️ Low attendance"]
+    },
+
+    {
+      "username": "student3",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU003", "name": "Sneha Patel", "course": "B.Tech CS", "year": 1, "semester": 2, "email": "sneha@gmail.com", "phone": "9000000003", "avatar": "🎓" },
+        "attendance": {
+          "overall": 88,
+          "subjects": {
+            "Data Structures": 90,
+            "Operating Systems": 85,
+            "Database Management": 87,
+            "Computer Networks": 89,
+            "Machine Learning": 88
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 91, "max": 100, "grade": "A+" },
+            "Operating Systems": { "marks": 88, "max": 100, "grade": "A" },
+            "Database Management": { "marks": 89, "max": 100, "grade": "A" },
+            "Computer Networks": { "marks": 90, "max": 100, "grade": "A+" },
+            "Machine Learning": { "marks": 87, "max": 100, "grade": "A" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 70000,
+          "paid": [{ "description": "Sem 1 Fees", "amount": 70000 }],
+          "pending": []
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["📚 Keep it up!"]
+    },
+
+    {
+      "username": "student4",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU004", "name": "Amit Verma", "course": "BCA", "year": 3, "semester": 6, "email": "amit@gmail.com", "phone": "9000000004", "avatar": "🎓" },
+        "attendance": {
+          "overall": 75,
+          "subjects": {
+            "Data Structures": 78,
+            "Operating Systems": 72,
+            "Database Management": 74,
+            "Computer Networks": 76,
+            "Machine Learning": 75
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 76, "max": 100, "grade": "B+" },
+            "Operating Systems": { "marks": 70, "max": 100, "grade": "B" },
+            "Database Management": { "marks": 73, "max": 100, "grade": "B+" },
+            "Computer Networks": { "marks": 75, "max": 100, "grade": "B+" },
+            "Machine Learning": { "marks": 74, "max": 100, "grade": "B+" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 60000,
+          "paid": [{ "description": "Fees Paid", "amount": 30000 }],
+          "pending": [{ "description": "Exam Fee", "amount": 3000 }]
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["📝 Assignment due"]
+    },
+
+    {
+      "username": "student5",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU005", "name": "Priya Singh", "course": "B.Tech AI", "year": 4, "semester": 8, "email": "priya@gmail.com", "phone": "9000000005", "avatar": "🎓" },
+        "attendance": {
+          "overall": 90,
+          "subjects": {
+            "Data Structures": 92,
+            "Operating Systems": 88,
+            "Database Management": 91,
+            "Computer Networks": 89,
+            "Machine Learning": 94
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 93, "max": 100, "grade": "A+" },
+            "Operating Systems": { "marks": 89, "max": 100, "grade": "A" },
+            "Database Management": { "marks": 92, "max": 100, "grade": "A+" },
+            "Computer Networks": { "marks": 90, "max": 100, "grade": "A+" },
+            "Machine Learning": { "marks": 95, "max": 100, "grade": "A+" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 90000,
+          "paid": [{ "description": "Full Paid", "amount": 90000 }],
+          "pending": []
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["🎉 Placement drive"]
+    },
+
+    {
+      "username": "student6",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU006", "name": "Karan Shah", "course": "B.Tech CS", "year": 2, "semester": 3, "email": "karan@gmail.com", "phone": "9000000006", "avatar": "🎓" },
+        "attendance": {
+          "overall": 68,
+          "subjects": {
+            "Data Structures": 60,
+            "Operating Systems": 65,
+            "Database Management": 70,
+            "Computer Networks": 68,
+            "Machine Learning": 66
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 65, "max": 100, "grade": "C+" },
+            "Operating Systems": { "marks": 67, "max": 100, "grade": "B" },
+            "Database Management": { "marks": 69, "max": 100, "grade": "B" },
+            "Computer Networks": { "marks": 66, "max": 100, "grade": "B" },
+            "Machine Learning": { "marks": 64, "max": 100, "grade": "C+" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 80000,
+          "paid": [],
+          "pending": [{ "description": "Sem 3 Fees", "amount": 40000 }]
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["⚠️ Improve performance"]
+    },
+
+    {
+      "username": "student7",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU007", "name": "Neha Gupta", "course": "BCA", "year": 1, "semester": 1, "email": "neha@gmail.com", "phone": "9000000007", "avatar": "🎓" },
+        "attendance": {
+          "overall": 85,
+          "subjects": {
+            "Data Structures": 88,
+            "Operating Systems": 82,
+            "Database Management": 84,
+            "Computer Networks": 86,
+            "Machine Learning": 85
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 87, "max": 100, "grade": "A" },
+            "Operating Systems": { "marks": 83, "max": 100, "grade": "A" },
+            "Database Management": { "marks": 85, "max": 100, "grade": "A" },
+            "Computer Networks": { "marks": 86, "max": 100, "grade": "A" },
+            "Machine Learning": { "marks": 84, "max": 100, "grade": "A" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 50000,
+          "paid": [],
+          "pending": []
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["📢 Orientation"]
+    },
+
+    {
+      "username": "student8",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU008", "name": "Rohit Das", "course": "B.Tech IT", "year": 3, "semester": 5, "email": "rohit@gmail.com", "phone": "9000000008", "avatar": "🎓" },
+        "attendance": {
+          "overall": 78,
+          "subjects": {
+            "Data Structures": 75,
+            "Operating Systems": 80,
+            "Database Management": 77,
+            "Computer Networks": 79,
+            "Machine Learning": 78
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 78, "max": 100, "grade": "B+" },
+            "Operating Systems": { "marks": 81, "max": 100, "grade": "A" },
+            "Database Management": { "marks": 79, "max": 100, "grade": "B+" },
+            "Computer Networks": { "marks": 80, "max": 100, "grade": "A" },
+            "Machine Learning": { "marks": 77, "max": 100, "grade": "B+" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 85000,
+          "paid": [],
+          "pending": [{ "description": "Sem 5 Fees", "amount": 20000 }]
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["📊 Results coming"]
+    },
+
+    {
+      "username": "student9",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU009", "name": "Anjali Roy", "course": "B.Tech CS", "year": 2, "semester": 4, "email": "anjali@gmail.com", "phone": "9000000009", "avatar": "🎓" },
+        "attendance": {
+          "overall": 92,
+          "subjects": {
+            "Data Structures": 95,
+            "Operating Systems": 90,
+            "Database Management": 93,
+            "Computer Networks": 91,
+            "Machine Learning": 94
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 94, "max": 100, "grade": "A+" },
+            "Operating Systems": { "marks": 91, "max": 100, "grade": "A+" },
+            "Database Management": { "marks": 93, "max": 100, "grade": "A+" },
+            "Computer Networks": { "marks": 92, "max": 100, "grade": "A+" },
+            "Machine Learning": { "marks": 95, "max": 100, "grade": "A+" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 80000,
+          "paid": [{ "description": "Full Paid", "amount": 80000 }],
+          "pending": []
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["🏆 Top performer"]
+    },
+
+    {
+      "username": "student10",
+      "password": "1234",
+      "data": {
+        "student": { "id": "STU010", "name": "Vikas Yadav", "course": "BCA", "year": 3, "semester": 6, "email": "vikas@gmail.com", "phone": "9000000010", "avatar": "🎓" },
+        "attendance": {
+          "overall": 73,
+          "subjects": {
+            "Data Structures": 70,
+            "Operating Systems": 72,
+            "Database Management": 75,
+            "Computer Networks": 74,
+            "Machine Learning": 73
+          }
+        },
+        "results": {
+          "current_semester": {
+            "Data Structures": { "marks": 72, "max": 100, "grade": "B" },
+            "Operating Systems": { "marks": 71, "max": 100, "grade": "B" },
+            "Database Management": { "marks": 74, "max": 100, "grade": "B+" },
+            "Computer Networks": { "marks": 73, "max": 100, "grade": "B" },
+            "Machine Learning": { "marks": 72, "max": 100, "grade": "B" }
+          },
+          "previous_semesters": {}
+        },
+        "fees": {
+          "total_fees": 60000,
+          "paid": [],
+          "pending": [{ "description": "Sem 6 Fees", "amount": 25000 }]
+        },
+        "resources": {},
+        "announcements": []
+      },
+      "notifications": ["⚠️ Maintain attendance"]
+    }
+  ]
+}

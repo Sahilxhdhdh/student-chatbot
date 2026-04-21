@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "tag": "results",
+      "patterns": ["results", "marks", "grades"]
+    },
+    {
+      "tag": "attendance",
+      "patterns": ["attendance", "classes"]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "payment"]
+    }
+  ]
+}
